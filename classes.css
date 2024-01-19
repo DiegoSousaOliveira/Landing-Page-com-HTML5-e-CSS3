@@ -1,0 +1,36 @@
+.main-bg {
+    background-image: url('./img/confetti-doodles.png');
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color)
+}
+
+.white-bg {
+    background: var(--white-color);
+    color: var(--primary-color)
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 10rem var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-space{
+    height: 6.5rem;
+}
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+
+.responsive-table{
+    overflow: hidden;
+    overflow-x: auto;
+}
